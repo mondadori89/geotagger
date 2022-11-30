@@ -16,17 +16,15 @@ Example:
 -12.599884866 -44.123652585 961.0322 0 0 0 3 5
 ```
 
-There should be 2 folders with names
+There should be 1 folders with name *flight_images* 
+All the images to be geotaged should be on this folder
 ```
 flight_images
-flight_images_geotaged
 ```
-
-All the images to be geotaged should be on the *flight_images* folder
 
 Open the terminal on this folder and run:
 ```
 py geotager.py
 ```
 
-The output will be on the *flight_images_geotaged* folder
+The output will be on the *flight_images_geotaged* folder that will be created

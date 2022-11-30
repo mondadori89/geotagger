@@ -7,6 +7,7 @@ with open('geotagfile.txt') as geotag_file:
 
 folder_path = 'flight_images'
 output_folder = 'flight_images_geotaged'
+os.mkdir(output_folder)
 files_list = os.listdir(folder_path)
 
 
@@ -68,7 +69,7 @@ for i in range(len(files_list)) :
     img.gps_longitude_ref = gps_longitude_ref
 
     # Check updated/added metadata
-    print(f'gps_latitude: {img.get("gps_latitude")}')
+    print(f'{i+1} of {len(files_list)}: Lat: {img.get("gps_latitude")}, Long: {img.get("gps_longitude")}')
 
     # Save the new file with metadata
     with open(f'{output_folder}/geotaged_{img_filename}', 'wb') as new_image_file:
