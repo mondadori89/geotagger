@@ -7,9 +7,9 @@ pip install exif
 
 ## Geotaging images with txt file
 
-The txt file should be like:
-Name: geotagfile.txt
-Format:
+The txt file should be like: <br/>
+Name: **geotagfile.txt**    <br/>
+Format: <br/>
 Lat Long Alt
 
 Example:
@@ -21,7 +21,7 @@ Example:
 -12.599884866 -44.123652585 961.0322 0 0 0 3 5
 ```
 
-There should be 1 folders with name *flight_images* 
+There should be 1 folder with name **flight_images** 
 All the images to be geotaged should be on this folder
 ```
 flight_images
