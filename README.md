@@ -1,5 +1,10 @@
 # Geotagger
 
+Open the terminal on this folder and run:
+```
+pip install exif
+```
+
 ## Geotaging images with txt file
 
 The txt file should be like:
