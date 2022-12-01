@@ -44,6 +44,11 @@ Create a folder to put the images to be renamed with the name **organizer**
 organizer
 ```
 
+Change the prefix on the code to whatever you want on line 5
+```py
+prefix = 'a'    # prefix that goes before the file name
+```
+
 Open the terminal on this folder and run:
 ```
 py rename.py
