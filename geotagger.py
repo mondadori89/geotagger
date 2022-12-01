@@ -6,7 +6,7 @@ with open('geotagfile.txt') as geotag_file:
     lines = geotag_file.readlines()
 
 folder_path = 'flight_images'
-output_folder = 'flight_images_geotaged'
+output_folder = 'flight_images_geotag'
 os.mkdir(output_folder)
 files_list = os.listdir(folder_path)
 

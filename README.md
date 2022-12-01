@@ -29,7 +29,22 @@ flight_images
 
 Open the terminal on this folder and run:
 ```
-py geotager.py
+py geotagger.py
 ```
 
-The output will be on the *flight_images_geotaged* folder that will be created
+The output will be on the *flight_images_geotag* folder that will be created
+<br/>
+<br/>
+<br/>
+
+# Rename
+
+Create a folder to put the images to be renamed with the name **organizer**
+```
+organizer
+```
+
+Open the terminal on this folder and run:
+```
+py rename.py
+```
